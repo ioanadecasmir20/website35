@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fabskills is a vocational training provider offering security, first aid, health and safety, fire safety and workplace training courses in London." />
+  <title>Fabskills | Vocational Training Provider</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo-link"><img src="images/logo.jpg" alt="Fabskills logo" class="logo" /></a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#recruitment">Recruitment</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="tagline">Vocational Training Provider</p>
+        <h1>Build skills. Gain confidence. Move forward.</h1>
+        <p>Fabskills provides practical, career-focused training for learners and employers across security, first aid, health and safety, fire safety and workplace compliance.</p>
+        <div class="hero-buttons">
+          <a href="#courses" class="btn primary">View Courses</a>
+          <a href="#contact" class="btn secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading">
+        <p class="eyebrow">About Fabskills</p>
+        <h2>Professional training for real workplace needs</h2>
+      </div>
+      <p>Fabskills delivers vocational training designed to help learners enter work, improve their skills and meet industry requirements. Our courses are delivered in a supportive and professional environment, with a focus on practical knowledge, learner confidence and workplace readiness.</p>
+    </section>
+
+    <section id="courses" class="section courses">
+      <div class="section-heading">
+        <p class="eyebrow">Our Courses</p>
+        <h2>Training programmes</h2>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>Security Courses</h3><p>SIA-linked training including Door Supervisor, Security Officer, CCTV and related private security programmes.</p></article>
+        <article class="card"><h3>First Aid</h3><p>Workplace first aid training to help learners respond confidently to incidents and emergencies.</p></article>
+        <article class="card"><h3>Health & Safety</h3><p>Practical health and safety courses for workplace awareness, compliance and safer working practices.</p></article>
+        <article class="card"><h3>Fire Safety</h3><p>Fire safety awareness and workplace fire procedures training for staff and organisations.</p></article>
+        <article class="card"><h3>Customer Service</h3><p>Training to improve communication, professionalism and customer-facing workplace skills.</p></article>
+        <article class="card"><h3>Workplace Compliance</h3><p>Short courses and refresher training to support staff development and organisational compliance.</p></article>
+      </div>
+    </section>
+
+    <section id="recruitment" class="section recruitment">
+      <div class="section-heading">
+        <p class="eyebrow">Recruitment</p>
+        <h2>Join our training team</h2>
+      </div>
+      <p>We are interested in hearing from experienced professionals who can support high-quality vocational training delivery and assessment.</p>
+      <div class="vacancies">
+        <div><strong>Trainers</strong><span>Security, first aid, health and safety, fire safety and workplace skills.</span></div>
+        <div><strong>Assessors</strong><span>Qualified assessors with relevant occupational competence.</span></div>
+        <div><strong>IQAs</strong><span>Internal quality assurers to support compliance and quality standards.</span></div>
+      </div>
+      <p class="apply-text">To apply, email your CV and relevant qualifications to <a href="mailto:info@fabskills.co.uk">info@fabskills.co.uk</a>.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:info@fabskills.co.uk">info@fabskills.co.uk</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Address</h3>
+          <p>44 Broadway<br>London<br>E15 1XH</p>
+        </div>
+      </div>
+      <form class="contact-form" action="mailto:info@fabskills.co.uk" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="How can we help?" rows="5" required></textarea>
+        <button type="submit" class="btn primary">Send Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Fabskills. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
